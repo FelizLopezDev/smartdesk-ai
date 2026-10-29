@@ -1,0 +1,36 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Variables de entorno y credenciales
+.env
+.env.*
+!.env.example
+
+# Entorno virtual
+.venv/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Archivos del sistema
+.DS_Store
+
+# Configuración local del editor
+.vscode/
+
+# Script temporal de pruebas
+test_gemini.py

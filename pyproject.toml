@@ -1,0 +1,15 @@
+[project]
+name = "smartdesk-ai"
+version = "0.1.0"
+description = "API REST para gestión de tickets de soporte con clasificación automática mediante Google Gemini"
+readme = "README.md"
+authors = [
+    { name = "Erick Alexander Feliz López", email = "erickfeliz2026startup@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.162.0",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.4",
+]
+
